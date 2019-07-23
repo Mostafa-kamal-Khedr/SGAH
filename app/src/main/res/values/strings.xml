@@ -1,0 +1,436 @@
+<resources>
+    <string name="app_name">SGAH</string>
+    <!--- - - - - - - - - validation - - - - - - - - - - - - -  -->
+
+    <string name="EnterPass">Enter the password</string>
+    <string name="invalidPass">Invalid password</string>
+
+    <string name="passConfirm">Enter confirm password</string>
+    <string name="passMatchat">Password not matching</string>
+    <string name="EnterNamge">Enter Your  userName</string>
+    <string name="enterFirstName">Enter Your First Name</string>
+
+
+    <string name="enterLastName">Enter Your Last Name</string>
+
+    <string name="shortName">The name is too short</string>
+    <string name="EnterNumber">Enter your phone number</string>
+    <string name="invalidNumber">Invalid phone number</string>
+    <string name="EnterEmail">Enter the email address</string>
+    <string name="invalidEmail">Please enter a valid email</string>
+
+    <string name="invalidName">Invalid User Name</string>
+    <string name="empity">Please enter data</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="gps_network_not_enabled">Network is not enapled! want to go to setting menu?</string>
+    <string name="open_location_settings">open location settings</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgetPassword">Forget password ?</string>
+    <string name="signUp">SignUp</string>
+    <string name="login">login</string>
+    <string name="dontHaveAccount">Dont have an account ?</string>
+    <string name="sullName">Full name</string>
+
+    <!--_ _ _ _ Speciality _ _ _ _ -->
+    <string name="select">Select specialty</string>
+    <string name="computers">Computers</string>
+    <string name="communications">Communications</string>
+    <!--______________-->
+
+
+    <!--- - - - - - - - - - - - - - - - - - - - - - -  -->
+    <string-array name="speciality">
+        <item>Communications Engineering</item>
+        <item>Computers Engineering</item>
+        <item>Physical Engineering</item>
+        <item>Chemical Engineering</item>
+        <item>Electrical Engineering-Machines </item>
+        <item>Civil Engineering-Roads</item>
+        <item>Civil Engineering-Buildings </item>
+        <item>Mechanical Engineering-Production</item>
+        <item>Mechanical Engineering-Marine</item>
+        <item>Petrolume Engineering-Production/Export</item>
+        <item></item>
+    </string-array>
+    <string name="title_activity_bse">BseActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="myCouses">My courses</string>
+    <string name="events">Events</string>
+    <string name="aboutUs">About us</string>
+    <string name="notifications">Notifications</string>
+    <string name="news">News</string>
+    <string name="language">Language</string>
+    <string name="contactUs">Contact us</string>
+    <string name="shareApp">Share app</string>
+    <string name="home">Home</string>
+
+    <string name="productDetails">Product details</string>
+    <string name="rescan">Rescan</string>
+    <string name="callUs">Call us</string>
+    <string name="send">Send</string>
+
+    <string name="messageText">Message text...</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="Email">Email</string>
+    <string name="whoWeAre">Who We Are?</string>
+    <string name="whoWeAreSubTitle">SGAH (Students Guides and Helpers) is a non-business project, it is considered as student graduation project based on finding the requirements and including some basic services for the students in the university. Any student can show his progress and grade in any subject and also the material of the course like lecture notes, home work and quizzes can download easily and updated daily. The student can also know the last news and the year study plan schedule.  \n \n\n
+
+Created by :     \n
+Maryam Bader Al Roumi  \n
+Nouf Ahmed Alrashed   \n\n
+Presented To :  \n
+ Dr. Amani Alheid
+</string>
+
+
+    <string name="arabic">Arabic</string>
+    <string name="english">English</string>
+    <string name="appLanguage">Languages</string>
+    <string name="studyPlan">Study plan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all">All</string>
+    <string name="firstSemester">First\n semester</string>
+    <string name="secondSemester">Second \n semester</string>
+    <string name="thirdSemester">Third \n semester</string>
+    <string name="fourthSemester">Fourth \n semester</string>
+    <string name="fifthSemester">Fifth \n semester</string>
+    <string name="recentlyAccessedCorses">Recently accessed courses</string>
+    <string name="recentlyMyFiles">Recently my files</string>
+    <string name="latestNews">Latest news</string>
+
+
+    <string name="spaceValidation">No space allowed</string>
+    <string name="userNameLength">Please enter letters from 3 to 30</string>
+
+    <string name="shortPass">Password must contain at least 8 characters</string>
+    <string name="loginError">User name or password is error</string>
+    <string name="news1">Applications for admission to the faculty and institutes of the Authority for the academic year 2019/2020 have been opened</string>
+    <string name="news2">The aptitude test has been scheduled to transfer and change specialization</string>
+    <string name="news3">All the students must activate the electronic mail system office 365</string>
+    <string name="news4">The English language level testing will be conducted electronically</string>
+    <string name="news5">Address: Kuwait - Shuwaikh - opposite to Kuwait university </string>
+    <string name="news6">Phone: 1806611</string>
+    <string name="news7">Email :  project.sgah.2019@gmail.com</string>
+    <string name="ElectricalCircuits1">Electrical Circuits 1</string>
+    <string name="Math1">Math 1</string>
+    <string name="Physics">Physics</string>
+    <string name="DigitalCircuits1">Digital Circuits 1</string>
+    <string name="ElectricalCircuits2">Electrical Circuits 2</string>
+    <string name="Electronics1">Electronics 1</string>
+    <string name="DigitalCircuit2">Digital Circuit 2</string>
+    <string name="ElectronicMeasurement">Electronic Measurement</string>
+    <string name="Electronics2">Electronics 2</string>
+    <string name="ElectromagneticApplication">Electromagnetic Application</string>
+    <string name="ElectronicsCommunication">Electronics Communication</string>
+    <string name="Microprocessor">Microprocessor</string>
+    <string name="Antenna">Antenna</string>
+    <string name="FiberOptics">Fiber Optics</string>
+    <string name="SelectedTopics">Selected Topics</string>
+    <string name="ComputerNetworks1">Computer Networks 1</string>
+    <string name="DigitalCommunication">Digital Communication</string>
+    <string name="PCMaintenance">PC Maintenance</string>
+    <string name="ComputerOperatingSystem">Computer Operating System</string>
+    <string name="Programming2">Programming 2</string>
+    <string name="ComputerApplication">Computer Application</string>
+    <string name="ComputerArchitecture">Computer Architecture</string>
+    <string name="DataStructure">Data Structure</string>
+    <string name="division">Section:</string>
+    <string name="referencenu">Reference NO:</string>
+    <string name="Teacher">Teacher</string>
+    <string name="totalUnits">Total units:</string>
+    <string name="computerTech1">Ahmed rashid al-hamdan</string>
+    <string name="computerTech2">Abdullah alkhirif</string>
+    <string name="computerTech3">Adel mohammed mahmoud mohamdin</string>
+    <string name="computerTech4">faisl turki ali turki</string>
+    <string name="computerTech5">yousef yacoub dashti</string>
+    <string name="computerTech6">Mohammmed rabie al anzi</string>
+    <string name="computerTech7">Eman mohsen alatabi</string>
+    <string name="computerTech8">Wadha fares al-shami</string>
+    <string name="computerTech9">Hend yousef al-shamri</string>
+    <string name="computerTech10">Manal mohammed alsaraf</string>
+    <string name="computerTech11">Mohammed salem bahbhani</string>
+    <string name="computerTech12">Ahmed hazal almazyed </string>
+    <string name="computerTech13">Asmma Eisa al naqi</string>
+    <string name="computerTech14">Wadha Fares alshami</string>
+    <string name="fifeOursAgo">5 hours ago</string>
+    <string name="units18">18 Unit</string>
+    <string name="units19">19 Unit</string>
+    <string name="units12">12 Unit</string>
+    <string name="units87">87 Unit</string>
+
+    <string-array name="notificationsList">
+        <item>An update to the Application version No.2 will be released next week</item>
+        <item>Added the possibility to modify the student for his data and added a personal image of his account on the Application</item>
+        <item>The student will also be able to upload Homeworks solutions for each subject in the new version</item>
+        <item>Stay tuned for the final exam schedule for all majors on the Application soon</item>
+        <item>Stay tuned for the summer activities plan for the students as well as summer training places</item>
+
+    </string-array>
+    <!--studyPlanListCommunication-->
+    <string-array name="studyPlanListCommunication">
+        <!--________________sem1______________-->
+        <item>Engineering Drawing</item>
+        <item>Computers</item>
+        <item>Basics Physics</item>
+        <item>Electrical circuits 1</item>
+        <item>math 1</item>
+        <item>English 1 </item>
+        <item>Workshop Technology</item>
+        <!--_____________________sem2_______________-->
+        <item>Drawing electronic workshop</item>
+        <item>Digital circuits 1</item>
+        <item>Electronics 1</item>
+        <item>Electrical circuits 2</item>
+        <item>math 2</item>
+        <item>English 2 </item>
+        <item>Field training 1</item>
+
+        <!--_____________________sem3_______________-->
+        <item>Maintenance</item>
+        <item>Digital circuits 2</item>
+        <item>Electronics 2</item>
+        <item>Theory of analog communication </item>
+        <item>Electronic Measurements</item>
+        <item>Islamic</item>
+        <item>Industrial Safety</item>
+
+
+        <!--________________________sem4________________-->
+
+        <item>Electronic Project</item>
+        <item>Microprocessor</item>
+        <item>General elective course</item>
+        <item>Electromagnetic Applications</item>
+        <item>Theory of Digital communication</item>
+        <item>Electronics Communications </item>
+        <item>Industrial management</item>
+        <!--________________________sem5________________-->
+
+        <item>General elective course</item>
+        <item>Specialist elective course</item>
+        <item>Specialist elective course</item>
+        <item>Field training 2</item>
+
+
+    </string-array>
+    <string-array name="studyPlanListSem1Communication">
+        <!--________________sem1______________-->
+        <item>Engineering Drawing</item>
+        <item>Computers</item>
+        <item>Basics Physics</item>
+        <item>Electrical circuits 1</item>
+        <item>math 1</item>
+        <item>English 1 </item>
+        <item>Workshop Technology</item>
+
+
+    </string-array>
+    <string-array name="studyPlanListSem2Communication">
+
+        <!--_____________________sem2_______________-->
+        <item>Drawing electronic workshop</item>
+        <item>Digital circuits 1</item>
+        <item>Electronics 1</item>
+        <item>Electrical circuits 2</item>
+        <item>math 2</item>
+        <item>English 2 </item>
+        <item>Field training 1</item>
+
+
+    </string-array>
+    <string-array name="studyPlanListSem3Communication">
+
+
+        <!--_____________________sem3_______________-->
+        <item>Maintenance</item>
+        <item>Digital circuits 2</item>
+        <item>Electronics 2</item>
+        <item>Theory of analog communication </item>
+        <item>Electronic Measurements</item>
+        <item>Islamic</item>
+        <item>Industrial Safety</item>
+
+
+    </string-array>
+    <string-array name="studyPlanListSem4Communication">
+
+
+        <!--________________________sem4________________-->
+
+        <item>Electronic Project</item>
+        <item>Microprocessor</item>
+        <item>General elective course</item>
+        <item>Electromagnetic Applications</item>
+        <item>Theory of Digital communication</item>
+        <item>Electronics Communications </item>
+        <item>Industrial management</item>
+
+
+    </string-array>
+    <string-array name="studyPlanListSem5Communication">
+
+
+        <!--________________________sem5________________-->
+
+        <item>General elective course</item>
+        <item>Specialist elective course</item>
+        <item>Specialist elective course</item>
+        <item>Field training 2</item>
+
+
+    </string-array>
+
+
+    <!--studyPlanListComputer-->
+    <string-array name="studyPlanListComputer">
+        <!--________________sem1______________-->
+        <item>Engineering Drawing</item>
+        <item>Computers</item>
+        <item>Basics Physics</item>
+        <item>Electrical circuits 1</item>
+        <item>math 1</item>
+        <item>English 1 </item>
+        <item>Workshop Technology</item>
+        <!--_____________________sem2_______________-->
+        <item>Drawing electronic workshop</item>
+        <item>Digital circuits 1</item>
+        <item>Electronics 1</item>
+        <item>Electrical circuits 2</item>
+        <item>math 2</item>
+        <item>English 2 </item>
+        <item>Field training 1</item>
+
+        <!--_____________________sem3_______________-->
+        <item>PC Maintenance</item>
+        <item>Digital circuits 2</item>
+        <item>Computer Networks 1</item>
+        <item>Digital communication</item>
+        <item>Programming 1</item>
+        <item>Islamic</item>
+        <item>Industrial Safety</item>
+
+
+        <!--________________________sem4________________-->
+
+        <item>Specialist elective course</item>
+        <item>Microprocessor</item>
+        <item>General elective course</item>
+        <item>Computer Operating System </item>
+        <item>Programming 2</item>
+        <item>General elective course</item>
+        <item>Industrial management</item>
+        <!--________________________sem5________________-->
+
+        <item>Field training 2</item>
+        <item>Specialist elective course</item>
+        <item>Computer Project</item>
+        <item>Computer Structure</item>
+
+
+    </string-array>
+    <string-array name="studyPlanListSem1Computer">
+        <!--________________sem1______________-->
+        <item>Engineering Drawing</item>
+        <item>Computers</item>
+        <item>Basics Physics</item>
+        <item>Electrical circuits 1</item>
+        <item>math 1</item>
+        <item>English 1 </item>
+        <item>Workshop Technology</item>
+
+    </string-array>
+    <string-array name="studyPlanListSem2Computer">
+
+        <!--_____________________sem2_______________-->
+        <item>Drawing electronic workshop</item>
+        <item>Digital circuits 1</item>
+        <item>Electronics 1</item>
+        <item>Electrical circuits 2</item>
+        <item>math 2</item>
+        <item>English 2 </item>
+        <item>Field training 1</item>
+
+
+    </string-array>
+    <string-array name="studyPlanListSem3Computer">
+
+        <!--_____________________sem3_______________-->
+        <item>PC Maintenance</item>
+        <item>Digital circuits 2</item>
+        <item>Computer Networks 1</item>
+        <item>Digital communication</item>
+        <item>Programming 1</item>
+        <item>Islamic</item>
+        <item>Industrial Safety</item>
+
+
+    </string-array>
+    <string-array name="studyPlanListSem4Computer">
+
+
+        <!--________________________sem4________________-->
+
+        <item>Specialist elective course</item>
+        <item>Microprocessor</item>
+        <item>General elective course</item>
+        <item>Computer Operating System </item>
+        <item>Programming 2</item>
+        <item>General elective course</item>
+        <item>Industrial management</item>
+
+
+    </string-array>
+    <string-array name="studyPlanListSem5Computer">
+
+
+        <!--________________________sem5________________-->
+
+        <item>Field training 2</item>
+        <item>Specialist elective course</item>
+        <item>Computer Project</item>
+        <item>Computer Structure</item>
+
+    </string-array>
+    <string name="downLoad">Download</string>
+    <string name="content">Contents</string>
+    <string name="participants">Participents</string>
+    <string name="grade">Grade</string>
+    <string name="quize">Quizes</string>
+    <string name="HomeWorks">Home Works</string>
+    <string name="midTermExam">MidTerm exam</string>
+    <string name="lab">Lab</string>
+    <string name="finalExam">Final exam</string>
+    <string name="totalDegree">Total degree</string>
+    <string name="grades">grades</string>
+    <string name="birthdate">Birth date</string>
+    <string name="joiningDate">Joining Date</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="First_Fall">First- Fall</string>
+    <string name="Second_Spring">Second - Spring</string>
+    <string name="Summer">Summer</string>
+    <string name="Pass">Pass</string>
+    <string name="pdffile">Pdf file</string>
+    <string name="mathhomework">Math Homework</string>
+    <string name="MathLectureNotes">Math Lecture Notes</string>
+    <string name="Student">Student</string>
+    <string name="logOut">LogOut</string>
+    <string name="remove">Remove</string>
+    <string name="theContent">The content</string>
+    <string name="upload">Add courses</string>
+    <string name="courseName">Course name</string>
+    <string name="speciality">Speciality</string>
+    <string name="add">Add</string>
+
+</resources>

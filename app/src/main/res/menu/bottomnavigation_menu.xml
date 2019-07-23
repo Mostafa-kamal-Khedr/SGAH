@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/botm_nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+
+    
+
+    <item
+        android:id="@+id/botm_nav_myCourses"
+        android:icon="@drawable/ic_my_courses"
+
+        android:title="@string/myCouses" />
+    <item
+        android:id="@+id/botm_nav_events"
+        android:icon="@drawable/ic_events"
+        android:title="@string/events" />
+    <item
+        android:id="@+id/botm_nav_studyPlane"
+        android:icon="@drawable/ic_study_plan"
+
+        android:title="@string/studyPlan" />
+
+
+
+</menu>

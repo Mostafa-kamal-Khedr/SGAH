@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sv_signInParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context=".ui.activity.LoginActivity">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="113dp"
+            android:layout_marginTop="110dp"
+
+            android:layout_marginEnd="113dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_logo" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/edt_emailLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="32dp">
+
+            <EditText
+                android:id="@+id/edt_UserEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:hint="@string/email"
+                android:inputType="textWebEmailAddress"
+
+                android:textAppearance="?android:textAppearanceSmall">
+
+                <requestFocus />
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/edt_PasswordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/edt_Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:hint="@string/password"
+                android:inputType="textWebPassword"
+                android:nextFocusDown="@+id/edt_UserEmail"
+                android:textAlignment="viewStart"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/img_Signin"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/shape_btn1_bg"
+            android:onClick="login"
+            android:text="@string/login"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/txt_ForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:clickable="true"
+            android:onClick="openForgotPasswordActivity"
+            android:text="@string/forgetPassword"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="40dp">
+
+
+
+            <TextView
+                android:id="@+id/txt_dontHaveAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+
+
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/dontHaveAccount" />
+
+
+            <TextView
+                android:id="@+id/txt_signUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/txt_dontHaveAccount"
+                android:layout_marginEnd="44dp"
+                android:background="@android:color/transparent"
+                android:onClick="gotoSignUp"
+                android:textColor="@color/colorAccent"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+
+
+                android:text="@string/signUp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

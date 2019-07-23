@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--- - - - - - - - - validation - - - - - - - - - - - - -  -->
+
+    <string name="EnterPass">من فضلك قم بادخال كلمة المرور</string>
+    <string name="invalidPass">كلمة المرور غير صحيحة</string>
+
+    <string name="passConfirm">من فضلك قم بتاكيد كلمة المرور</string>
+    <string name="passMatchat">كلمة المرور غير متطابقة</string>
+    <string name="EnterNamge">من فضلك قم بادخال  اسم المستخدم</string>
+    <string name="enterFirstName">من فضلك قم بادخال الاسم الاول</string>
+    <string name="enterLastName">من فضلك قم بادخال الاسم الاخير</string>
+
+    <string name="shortName">الاسم قصير </string>
+    <string name="EnterNumber">من فضلك قم بادخال رقم الجوال</string>
+    <string name="invalidNumber">رقم جوال غير صحيح</string>
+    <string name="EnterEmail">يرجى ادخال البريد الالكتروني</string>
+    <string name="invalidEmail">من فضلك قم بإدخال البريد الكتروني صحيح</string>
+
+    <string name="invalidName">من فضلك قم بإدخال اسم صحيح</string>
+    <string name="empity">من فضلك ادخل بيانات</string>
+    <!--- - - - - - - - -  - - - - - - - - - - - - -  -->
+    <string name="title_activity_maps">الخريطة</string>
+
+    <string name="gps_network_not_enabled">الشبكة غير مفعلة! تريد أن تذهب إلى القائمة؟</string>
+    <string name="open_location_settings">فتح إعدادات الموقع</string>
+
+    <string name="email">البريد الالكترونى</string>
+    <string name="password">الرقم السرى</string>
+    <string name="forgetPassword">نسيت كلمة المرور ؟</string>
+    <string name="signUp">تسجيل دخول</string>
+    <string name="login">دخول</string>
+    <string name="dontHaveAccount">ليس لديك حساب ؟</string>
+    <string name="sullName">Full name</string>
+
+    <!--_ _ _ _ Speciality _ _ _ _ -->
+    <string name="select">اختر التخصص</string>
+    <string name="computers">حاسبات</string>
+    <string name="communications">اتصالات</string>
+    <string name="profile">حسابى</string>
+    <string name="myCouses">دوراتي</string>
+    <string name="events">أحداث</string>
+    <string name="aboutUs">من نحن</string>
+    <string name="notifications">الاشعارات</string>
+    <string name="news">الاخبار</string>
+    <string name="language">اللغة</string>
+    <string name="contactUs">اتصل بنا</string>
+    <string name="shareApp">شارك التطبيق</string>
+    <string name="home">الرئيسية</string>
+    <!--______________-->
+
+
+    <string-array name="speciality">
+        <item>اتصالات</item>
+        <item> كمبيوتر</item>
+        <item>الهندسه الكيميائيه</item>
+        <item>الهندسه الفيزيائية</item>
+        <item>الهندسه الكهربائيه-الات</item>
+        <item>الهندسه المدنيه-طرق</item>
+        <item>الهندسه المدنيه-مبانى</item>
+        <item>الهندسه الميكانيكيه-انتاج</item>
+        <item>الهندسه الميكانيكيه- بحريه</item>
+        <item>هندسةالبترول-انتاج وتصدير</item>
+    </string-array>
+
+    <string name="productDetails">Product details</string>
+    <string name="rescan">Rescan</string>
+    <string name="callUs">Call us</string>
+    <string name="send">Send</string>
+
+    <string name="subject">عنوان الرسالة</string>
+    <string name="message">الرسالة</string>
+    <string name="messageText">نص الرسالة...</string>
+    <string name="Email">البريد الالكترونى</string>
+
+
+    <string name="whoWeAre">من نحن ؟</string>
+    <string name="whoWeAreSubTitle"> هوا دليل الطلاب ومساعدوه هو مشروع غير تجاري ، ويعتبر مشروع تخرج الطلاب بناءً على إيجاد المتطلبات بما في ذلك بعض الخدمات الأساسية للطلاب في الجامعة. يمكن لأي طالب إظهار تقدمه ودرجة تقدمه في أي مادة وأيضًا أن مواد الدورة التدريبية مثل ملاحظات المحاضرة والعمل المنزلي واختبارات يمكن تنزيلها بسهولة ويتم تحديثها يوميًا. يمكن للطالب أيضًا معرفة آخر الأخبار والجدول الزمني لخطة الدراسة.  \n
+  المصميمن:        \n
+مريم بدر الرومي   \n
+نوف احمد الراشد           \n \n
+مقدم إلى:              \n
+د. أماني الهيد
+</string>
+
+
+    <string name="arabic">العربية</string>
+    <string name="english">الانجليزية</string>
+    <string name="appLanguage">اللغات</string>
+    <string name="studyPlan">خطة دراسية</string>
+    <string name="all">الكل</string>
+    <string name="firstSemester">الفصل الأول</string>
+    <string name="secondSemester">الفصل  الثاني</string>
+    <string name="thirdSemester">الفصل الثالث</string>
+    <string name="fourthSemester">الفصل الرابع</string>
+    <string name="fifthSemester">الفصل الخامس</string>
+    <string name="recentlyAccessedCorses">الدورات التي تم الوصول إليها مؤخرا</string>
+    <string name="recentlyMyFiles">ملفاتي الأخيرة</string>
+    <string name="latestNews">أحدث الأخبار</string>
+
+
+    <string name="spaceValidation">غير مسموح بالمسافات</string>
+
+
+    <string name="userNameLength">من فضلك ادخل حروف من 3 الى 30</string>
+
+
+    <string name="shortPass">يجب على كلمة المرور أن تحتوي على 8 حروف على الأقل</string>
+    <string name="loginError">اسم المستخدم او الرقم السرى خطا</string>
+    <string name="news1">تم فتح باب التقدم بطلبات الالتحاق في كليات ومعاهد الهيئة للعام الدراسي 2019/2020</string>
+    <string name="news2">تم تحديد موعد اختبار القدرات للتحويل وتغيير التخصص</string>
+    <string name="news3">علي جميع طلبة الهيئة تفعيل الايميل الالكتروني في نظام office 365</string>
+    <string name="news4">سيعقد اختبار تحديد المستوي للغة الانجليزية الكترونيا</string>
+    <string name="news5">العنوان : الكويت - الشويخ - مقابل جامعة الكويت</string>
+    <string name="news6">التليفون : 1806611</string>
+    <string name="news7">البريد الالكترونى : project.sgah.2019@gmail.comالبريد الالكترونى : project.sgah.2019@gmail.com</string>
+
+
+    <string name="ElectricalCircuits1">دوائر كهربية 1</string>
+    <string name="Math1">رياضيات 1</string>
+    <string name="Physics">فيزياء</string>
+    <string name="DigitalCircuits1">دوائر رقمية 1</string>
+    <string name="ElectricalCircuits2">دوائر كهربية 2</string>
+    <string name="Electronics1">الكترونيات 1</string>
+    <string name="DigitalCircuit2">دوائر رقمية 2</string>
+    <string name="ElectronicMeasurement">قياسات الكترونية</string>
+    <string name="Electronics2">الكترونيات 2</string>
+    <string name="ElectromagneticApplication">تطبيقات كهرومغناطيسية</string>
+    <string name="ElectronicsCommunication">اتصالات الكترونية</string>
+    <string name="Microprocessor">اساسيات ميكروبروسيسور</string>
+    <string name="Antenna">هوائيات</string>
+    <string name="FiberOptics">الياف ضوئية</string>
+    <string name="SelectedTopics">موضوعات مختارة</string>
+    <string name="ComputerNetworks1">شبكات الكمبيوتر1</string>
+    <string name="DigitalCommunication">اتصالات المعلومات الرقمية</string>
+    <string name="PCMaintenance">صيانة الكمبيوتر</string>
+    <string name="ComputerOperatingSystem">نظام تشغيل الكمبيوتر</string>
+    <string name="Programming2">لغة برمجة الكمبيوتر 2</string>
+    <string name="ComputerApplication">تطبيقات الكمبيوتر</string>
+    <string name="ComputerArchitecture">هيكلة الكمبيوتر</string>
+    <string name="DataStructure">هيكلة البيانات</string>
+    <string name="division">شعبة</string>
+    <string name="referencenu">رقم مرجعى:</string>
+    <string name="Teacher">معلم:</string>
+    <string name="totalUnits">عدد الوحدات:</string>
+    <string name="computerTech1">احمد راشد سالم الحمدان</string>
+    <string name="computerTech2">عبدالله الخريفى</string>
+    <string name="computerTech3">عادل محمد محمود محمدين</string>
+    <string name="computerTech4">فيصل تركى على التركى</string>
+    <string name="computerTech5">يوسف يعقوب دعشى</string>
+    <string name="computerTech6">محمد ربيع العنزى</string>
+    <string name="computerTech7">ايمان محسن العتبى</string>
+    <string name="computerTech8">وضحة فارس الشامى</string>
+    <string name="computerTech9">هند يوسف الشامرى</string>
+    <string name="computerTech10">منال محمد الصراف</string>
+    <string name="computerTech11">محمد سالم بهبهانى</string>
+    <string name="computerTech12">احمد هزال المزيد</string>
+    <string name="computerTech13">اسماء عيسى النقى</string>
+    <string name="computerTech14">وضحة فارس الشامى</string>
+    <string name="fifeOursAgo">منذو5 ساعات</string>
+    <string name="units18">18 وحدة</string>
+    <string name="units19">19 وحدة</string>
+    <string name="units12">12 وحدة</string>
+    <string name="units87">87 وحدة</string>
+
+
+    <string-array name="notificationsList">
+        <item>سيتم اصدار تحديث لنسخة البرنامج الاصدار الثاني الاسبوع القادم</item>
+        <item>تم اضافه امكانية تعديل الطالب لبياناته واضافه صورة شخصية لحسابه علي البرنامج</item>
+        <item>سيتم اضافة امكانية الطالب رفع حلول الواجبات الخاصه بكل مادة في الاصدار الجديد</item>
+        <item>ترقبوا نزول جدول الامتحانات النهائية لكل التخصصات علي البرنامج قريبا</item>
+        <item>ترقبوا نزول خطة الانشطة الصيفية للطلاب وايضا اماكن التدريب الصيفي</item>
+
+    </string-array>
+
+    <!--studyPlanListCommunication-->
+    <string-array name="studyPlanListCommunication">
+        <!--________________sem1______________-->
+        <item>رسم هندسي</item>
+        <item>حاسبات </item>
+        <item>فيزياء أساسية</item>
+        <item>دوائر كهربية 1</item>
+        <item>رياضيات 1</item>
+        <item>لغة انجليزية 1 </item>
+        <item>تكنولوجيا ورش</item>
+        <!--_____________________sem2_______________-->
+        <item>رسم ورشة الكترونية</item>
+        <item>دوائر رقمية 1</item>
+        <item>الكترونيات 1</item>
+        <item>دوائر كهربية 2</item>
+        <item>رياضيات 2</item>
+        <item>لغة انجليزية 2 </item>
+        <item>تدريب ميداني 1 </item>
+
+        <!--_____________________sem3_______________-->
+        <item>صيانة وتصليح اعطال</item>
+        <item>دوائر رقمية 2</item>
+        <item>الكترونيات 2</item>
+        <item>نظرية اتصالات تماثلية</item>
+        <item>قياسات الكترونية</item>
+        <item>ثقافة اسلامية</item>
+        <item>أمن صناعي </item>
+
+
+        <!--________________________sem4________________-->
+
+        <item>مشروع الكتروني</item>
+        <item>مشروع الكتروني</item>
+        <item>مقرر اختياري عام</item>
+        <item>تطبيقات كهرومغناطيسية</item>
+        <item>نظرية اتصالات رقمية</item>
+        <item>الكترونات اتصالات</item>
+        <item>ادارة صناعية</item>
+        <!--________________________sem5________________-->
+
+        <item>مقرر اختياري عام </item>
+        <item>اختياري تخصصي</item>
+        <item>اختياري تخصصي </item>
+        <item>تدريب ميداني 2</item>
+
+
+    </string-array>
+
+
+    <string-array name="studyPlanListSem1Communication">
+        <!--________________sem1______________-->
+        <item>رسم هندسي</item>
+        <item>حاسبات </item>
+        <item>فيزياء أساسية</item>
+        <item>دوائر كهربية 1</item>
+        <item>رياضيات 1</item>
+        <item>لغة انجليزية 1 </item>
+        <item>تكنولوجيا ورش</item>
+
+
+    </string-array>
+    <string-array name="studyPlanListSem2Communication">
+
+        <!--_____________________sem2_______________-->
+        <item>رسم ورشة الكترونية</item>
+        <item>دوائر رقمية 1</item>
+        <item>الكترونيات 1</item>
+        <item>دوائر كهربية 2</item>
+        <item>رياضيات 2</item>
+        <item>لغة انجليزية 2 </item>
+        <item>تدريب ميداني 1 </item>
+
+    </string-array>
+    <string-array name="studyPlanListSem3Communication">
+
+
+        <!--_____________________sem3_______________-->
+        <item>صيانة وتصليح اعطال</item>
+        <item>دوائر رقمية 2</item>
+        <item>الكترونيات 2</item>
+        <item>نظرية اتصالات تماثلية</item>
+        <item>قياسات الكترونية</item>
+        <item>ثقافة اسلامية</item>
+        <item>أمن صناعي </item>
+
+
+    </string-array>
+    <string-array name="studyPlanListSem4Communication">
+
+
+        <!--________________________sem4________________-->
+
+        <item>مشروع الكتروني</item>
+        <item>مشروع الكتروني</item>
+        <item>مقرر اختياري عام</item>
+        <item>تطبيقات كهرومغناطيسية</item>
+        <item>نظرية اتصالات رقمية</item>
+        <item>الكترونات اتصالات</item>
+        <item>ادارة صناعية</item>
+
+    </string-array>
+    <string-array name="studyPlanListSem5Communication">
+
+
+        <!--________________________sem5________________-->
+
+        <item>مقرر اختياري عام </item>
+        <item>اختياري تخصصي</item>
+        <item>اختياري تخصصي </item>
+        <item>تدريب ميداني 2</item>
+
+
+    </string-array>
+
+
+    <string-array name="studyPlanListComputer">
+        <!--________________sem1______________-->
+        <item>رسم هندسي</item>
+        <item>حاسبات </item>
+        <item>فيزياء أساسية</item>
+        <item>دوائر كهربية 1</item>
+        <item>رياضيات 1</item>
+        <item>لغة انجليزية 1 </item>
+        <item>تكنولوجيا ورش</item>
+        <!--_____________________sem2_______________-->
+        <item>رسم ورشة الكترونية</item>
+        <item>دوائر رقمية 1</item>
+        <item>الكترونيات 1</item>
+        <item>دوائر كهربية 2</item>
+        <item>رياضيات 2</item>
+        <item>لغة انجليزية 2 </item>
+        <item>تدريب ميداني 1 </item>
+
+        <!--_____________________sem3_______________-->
+        <item>صيانة كمبيوتر</item>
+        <item>دوائر رقمية 2</item>
+        <item>شبكات الكمبيوتر 1</item>
+        <item>لغة برمجة الكمبيوتر 1</item>
+        <item>اتصالات معلومات رقمية</item>
+        <item>ثقافة اسلامية</item>
+        <item>أمن صناعي </item>
+
+
+        <!--________________________sem4________________-->
+
+        <item>مقرر اختياري عام</item>
+        <item>مقرر اختياري عام</item>
+        <item>أساسيات ميكروبروسيسور</item>
+        <item>لغة برمجة الكمبيوتر 2</item>
+        <item>نظام تشغيل الكمبيوتر</item>
+        <item>اختياري تخصصي</item>
+        <item>ادارة صناعية</item>
+        <!--________________________sem5________________-->
+
+        <item>مشروع كمبيوتر</item>
+        <item>هيكلة كمبيوتر</item>
+        <item>اختياري تخصصي </item>
+        <item>تدريب ميداني 2 </item>
+
+
+    </string-array>
+
+
+    <string-array name="studyPlanListSem1Computer">
+        <!--________________sem1______________-->
+        <item>رسم هندسي</item>
+        <item>حاسبات </item>
+        <item>فيزياء أساسية</item>
+        <item>دوائر كهربية 1</item>
+        <item>رياضيات 1</item>
+        <item>لغة انجليزية 1 </item>
+        <item>تكنولوجيا ورش</item>
+
+
+    </string-array>
+    <string-array name="studyPlanListSem2Computer">
+
+        <!--_____________________sem2_______________-->
+        <item>رسم ورشة الكترونية</item>
+        <item>دوائر رقمية 1</item>
+        <item>الكترونيات 1</item>
+        <item>دوائر كهربية 2</item>
+        <item>رياضيات 2</item>
+        <item>لغة انجليزية 2 </item>
+        <item>تدريب ميداني 1 </item>
+
+    </string-array>
+    <string-array name="studyPlanListSem3Computer">
+
+
+        <!--_____________________sem3_______________-->
+        <item>صيانة كمبيوتر</item>
+        <item>دوائر رقمية 2</item>
+        <item>شبكات الكمبيوتر 1</item>
+        <item>لغة برمجة الكمبيوتر 1</item>
+        <item>اتصالات معلومات رقمية</item>
+        <item>ثقافة اسلامية</item>
+        <item>أمن صناعي </item>
+
+
+    </string-array>
+    <string-array name="studyPlanListSem4Computer">
+
+
+        <!--________________________sem4________________-->
+
+        <item>مقرر اختياري عام</item>
+        <item>مقرر اختياري عام</item>
+        <item>أساسيات ميكروبروسيسور</item>
+        <item>لغة برمجة الكمبيوتر 2</item>
+        <item>نظام تشغيل الكمبيوتر</item>
+        <item>اختياري تخصصي</item>
+        <item>ادارة صناعية</item>
+
+
+    </string-array>
+    <string-array name="studyPlanListSem5Computer">
+
+
+        <!--________________________sem5________________-->
+
+        <item>مشروع كمبيوتر</item>
+        <item>هيكلة كمبيوتر</item>
+        <item>اختياري تخصصي </item>
+        <item>تدريب ميداني 2 </item>
+
+
+    </string-array>
+
+    <string name="downLoad">تحميل</string>
+    <string name="content">المحتويات</string>
+    <string name="participants">المشاركين</string>
+    <string name="grade">الدرجة</string>
+    <string name="quize">اختبارات</string>
+    <string name="HomeWorks">الواجب المنزلى</string>
+    <string name="midTermExam">إختبار نصف الفصل</string>
+    <string name="lab">المعمل</string>
+    <string name="finalExam">الاختبار النهائى</string>
+    <string name="totalDegree">الدرجة الكلية</string>
+    <string name="grades">الدرجات</string>
+    <string name="birthdate">تاريخ الميلاد</string>
+    <string name="joiningDate">تاريخ الانضمام</string>
+    <string name="gender">النوع</string>
+    <string name="male">ذكر</string>
+    <string name="female">انثى</string>
+    <string name="First_Fall">الاول - الخريف </string>
+    <string name="Second_Spring">الثاني - الربيع</string>
+    <string name="Summer">الصيفي</string>
+    <string name="Pass">ناجح</string>
+    <string name="pdffile">ملف Pdf</string>
+    <string name="mathhomework">واجب الرياضيات</string>
+    <string name="MathLectureNotes">ملاحظات محاضرة الرياضيات</string>
+    <string name="Student">طالب</string>
+    <string name="logOut">خروج</string>
+    <string name="remove">حذف</string>
+    <string name="theContent">المحتوى</string>
+    <string name="upload">اضف مادة</string>
+    <string name="courseName">Course name</string>
+    <string name="speciality">Speciality</string>
+    <string name="add">Add</string>
+
+</resources>

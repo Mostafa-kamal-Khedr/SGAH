@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.StudyPlanFragment">
+
+    <TextView
+        android:id="@+id/tv_mycoursesTitle"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:gravity="start|center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerVertical="true"
+        android:paddingStart="14dp"
+        android:layout_height="?attr/actionBarSize"
+        android:text="@string/studyPlan"
+        android:textColor="@android:color/white" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_mycoursesTitle"
+        android:background="@color/colorPrimary"
+        app:tabIndicatorColor="@color/colorAccent"
+        app:tabIndicatorHeight="3dp"
+        app:tabMode="scrollable"
+        app:tabTextColor="#68A7CE"
+
+        app:tabSelectedTextColor="@android:color/white">
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tabs">
+
+
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>
